@@ -14,3 +14,4 @@ I used a bar chart in my final visualization, but I originally intended to use a
 I definitely want to build out the start and end information for each of the complaints so that there is some additional temporal element included that could demonstrate the efficiency of the department’s response to these kinds of complaints.  I could also include more data from the many years collected through 311.  As I’ve made some initial assumptions about the “greenest” borough, I could do some more research on how many trees are counted in each borough.  I could also cross reference this data with weather data to see if there’s a correlation with “Damaged Tree” reports and inclement weather that could harm trees.  I’m also interested in learning more about the “New Tree Request” and figuring out exactly what this entails and how it is responded to.  When is a new tree request filled and why?
 
 
+< [Return to Home](./index.md)
