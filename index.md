@@ -7,3 +7,7 @@ For this week's assignment, I investigated data in the 311 NYC Open Data that lo
 ### [Blog Post 2](./blog_post2.md)
 
 For this week's Quantified Self assignment, I investigated my Amazon purchaing habits since 2004.  I created four visualizations from the data.   
+
+### [Blog Post 3](./blog_post3.md)
+
+For this week's Final Portfolio Draft assignment, I investigated a data set that has been used in a project Jenna Freedman and I are working on: [The Zine Union Catalog](www.zinecat.org).   I created three visualizations from the data and used more dashboard functionality than in previous assignments.   
