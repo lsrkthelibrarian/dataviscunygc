@@ -1,7 +1,7 @@
 ## Final Portfolio Draft
 
 ## Research Question: 
-Research question: Jenna Freedman and I have been conducting ongoing work at the GC to develop a Zine Union Catalog that will allow scholars, researchers, zinesters, and anyone else interested in locating zine collections through a single search interface.  It is called ZineCat. 
+Jenna Freedman and I have been conducting ongoing work at the GC to develop a Zine Union Catalog that will allow scholars, researchers, zinesters, and anyone else interested in locating zine collections through a single search interface.  It is called ZineCat. 
 
 First, a zine is a self published, small circulation, original work often featuring artistic, counter cultural, political, or highly personal content.  Second, if you’re not familiar with a union catalog, it is a catalog that allows one to search across many collections.  Libraries across the world have been collecting zines and making them locally findable (i.e. through the institution’s own catalog), but they are rarely made findable via larger union catalogs, a la Worldcat, and often have different means for describing the zines (aka non-standardized metadata).  
 
