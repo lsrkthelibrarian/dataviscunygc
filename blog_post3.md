@@ -15,7 +15,6 @@ Audience: The immediate audience for this project is me and Jenna Freedman, alon
 ## The Data: 
 I will use a sampling of data from the three institutions that are currently represented in the Zine Union Catalog: Barnard Zine Library, Denver Zine Library, and the Queer Zine Archive Project (QZAP).  Stored in the [xZINECOREx](https://github.com/zinecat/xZINECOREx) Github repository are samplings of records the three collections.  I’ve identified QZAP’s data set to be the “easiest” to use as it will require the least amount of cleaning (so it’s possible I will just use this set), but ideally, I would like to have all three collections that are currently visible in ZUC to be represented in my visualizations.  In the ZUC, there are about 20 items from each collection, so I may pull out the information on those items specifically for the visualization or I may just use QZAP’s data.  
 
-
 {% include plot4.html %}
 
 ## Data Design and Decisions: 
