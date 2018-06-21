@@ -21,7 +21,9 @@ I will use a sampling of data from the three institutions that are currently rep
 
 {% include plot5.html %}
 
-In casae the visualization does not appear above, please click this [link](https://public.tableau.com/views/FinalProjectAttempt3/ZineCatFinal?:embed=y&:display_count=yes&publish=yes) to visit my Tableau page.  
+
+
+In case the visualization does not appear above, please click this [link](https://public.tableau.com/views/FinalProjectAttempt3/ZineCatFinal?:embed=y&:display_count=yes&publish=yes) to visit my Tableau page.  
 
 ## Data Design and Decisions: 
 I created a lot more versions of the data for this final assignment than what I have been doing up until now.  In the first two assignments, my realized visualization very much matched my original sketch, but for this assignment, I was quite at a loss as to what works best.  I want to use my data set most effectively to determine discrepancies in metadata description and to show how complicated describing zines is.  I think the visualizations represent this, but I do not like the way the bar charts require the viewer to do a lot of scrolling and want to find a better way to present this data.  Also, with so many keywords represented in one of the bar charts, it was not a good design decision to use one color, but I am unhappy with the clashing color scheme.  The project I am analyzing this data for has a color scheme of red and black, so I would like the visualizations to conform to the same color aesthetic.  Two out of three visualizations do, but the one that is most representative of the keywords does not conform.  
