@@ -1,4 +1,4 @@
-## Final Portfolio Draft
+# Final Portfolio Draft
 
 ## Research Question: 
 Jenna Freedman and I have been conducting ongoing work at the GC to develop a Zine Union Catalog that will allow scholars, researchers, zinesters, and anyone else interested in locating zine collections through a single search interface.  It is called [ZineCat](http://browse.zinecat.org/index.php). 
@@ -16,6 +16,10 @@ Audience: The immediate audience for this project is me and Jenna Freedman, alon
 I will use a sampling of data from the three institutions that are currently represented in the Zine Union Catalog: Barnard Zine Library, Denver Zine Library, and the Queer Zine Archive Project (QZAP).  Stored in the [xZINECOREx](https://github.com/zinecat/xZINECOREx) Github repository are samplings of records the three collections.  I’ve identified QZAP’s data set to be the “easiest” to use as it will require the least amount of cleaning (so it’s possible I will just use this set), but ideally, I would like to have all three collections that are currently visible in ZUC to be represented in my visualizations.  In the ZUC, there are about 20 items from each collection, so I may pull out the information on those items specifically for the visualization or I may just use QZAP’s data.  
 
 {% include plot4.html %}
+
+**After our in-class pin-up and feedback from the class, I have made several updates to the visualization.**
+
+{% include plot5.html %}
 
 In casae the visualization does not appear above, please click this [link] (https://public.tableau.com/views/FinalProjectAttempt3/ZineCatFinal?:embed=y&:display_count=yes&publish=yes) to visit my Tableau page.  
 
