@@ -92,7 +92,7 @@ This project was the only visualization we were required to update after receivi
 
 After the workshop session, I made a few more notes of things I wanted to finish working on: fix tooltips, bold the labels on dashboard view, fix the sizing and layout of the visualizations and its embedding size.  These were all accomplished by the day of final presentations (except I realized one of the tooltips did not get updated).  
 
-**My final product can be seen below:**
+**My final visualization can be seen below:**
 
 {% include plot5.html %}
 
