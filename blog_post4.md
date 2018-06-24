@@ -44,7 +44,7 @@ With advice from the instructors I focused the early part of my exploration on r
 
 With that in mind, the two bar charts I created were all the keywords used in the set and how often.  The other chart was of zine creators and the number they had created.  Both charts are VERY long and require a lot of scrolling, however, within the first bar chart, within the first few keywords listed (alphabetically), I could see that there were three ways that an organization was spelled: “ACT-UP,” “ACT UP,” and “ACTUP.”  I also noticed that “Adbusters” and “adbusters” were listed separately.  With this early observation, I decided to leave the visualization alphabetized (instead of ranking it from lowest to highest frequency or vice versa), because variations in spelling of the keywords would be an easy way to determine an issue with the keywords set.  As my research question indicated, I wanted to visualize the “problems” of the messy data, and within my first simple visualization, I was able to demonstrate that spelling variation creates multiple keywords that are essentially trying to describe a zine in the same way.  
 
-After noticing some keyword spelling discrepancies, I wanted to make the tooltip provide more information about the data, so I added Zine Title to the tooltip in the worksheet.  When there was a keyword that had been applied to more than one zine, the tooltip would show an “*” (null value).  I remembered addressing this issue in a previous class, but could not quite remember how Erin had guided the class to fixing it.  I then googled for the answer.  Browsing through a few sites, I finally found the answer: Zine Title needed to be added to the Details card as well in order to show multiple values in the tool tip.  Huzzah!  Success on getting the details I wanted into the visualization.  
+After noticing some keyword spelling discrepancies, I wanted to make the tooltip provide more information about the data, so I added Zine Title to the tooltip in the worksheet.  When there was a keyword that had been applied to more than one zine, the tooltip would show an asterisk (null value).  I remembered addressing this issue in a previous class, but could not quite remember how Erin had guided the class to fixing it.  I then googled for the answer.  Browsing through a few sites, I finally found the answer: Zine Title needed to be added to the Details card as well in order to show multiple values in the tool tip.  Huzzah!  Success on getting the details I wanted into the visualization.  
 
 Around this time, I have a note that says: “Look into why tabs show on Jenna’s visualizations embedded in GitHub” and not mine.”  The tab function allows the embedded image to show all the worksheets in one screen, as opposed to scrolling down to the bottom of Tableau Public and clicking a link to the particular worksheet.  While I didn’t get the answer on Saturday, Erin was able to explain on Monday that it is a setting in Tableau Public’s online platform.  I have a note to follow up on looking into that setting, but we were cautioned to use the tab function with reason!   [insert image of tab no tab here]
 
@@ -57,35 +57,38 @@ As I had been working with the one set of data for a few hours, I decided to go 
 Most specifically, I focused on the aesthetic look of the visualizations and tried to incorporate the color scheme used in the Zine Union Catalog: black and red.  During the draft phase, I changed all the tree maps to a dark, light, and lighter variation of red and also left the zine creator bar chart as all red.  With the keyword bar chart, I chose the color blind color theme in Tableau, but I really was not happy with that choice.  Nevertheless, I left it in for the pin-up phase of the project.  
 
 The pin-up process throughout the semester was very helpful to get insight in other’s view of the visualized data and this silent pin-up (where we weren’t allowed to defend our decisions until the class and instructors had provided their feedback) was especially useful in updating the draft and finalizing the visualizations.  Some notes I have from this part of the project are:
-Dashboards can be duplicated, too, so don’t edit the draft dashboard, but create a new one and work from there.
-Adding tabs in the visualization should be a conscious decision the visualization creator employs and there should be a legitimate reason to provide the visualization that way.
-Change the treemaps font color to black and standardize the red shading of each of the maps (I left the font color white).  
-Incorporate dashboard actions (I had forgotten how to do this between class time and draft creation, but Erin walked me through it during workshop day). 
-Add a text box at the bottom of the viz to sum things up??  (I did not end up doing this and instead updated the text box explaining the project at the top of the visualization.)
+
+- Dashboards can be duplicated, too, so don’t edit the draft dashboard, but create a new one and work from there.
+- Adding tabs in the visualization should be a conscious decision the visualization creator employs and there should be a legitimate reason to provide the visualization that way.
+- Change the treemaps font color to black and standardize the red shading of each of the maps (I left the font color white).  
+- Incorporate dashboard actions (I had forgotten how to do this between class time and draft creation, but Erin walked me through it during workshop day). 
+- Add a text box at the bottom of the viz to sum things up??  (I did not end up doing this and instead updated the text box explaining the project at the top of the visualization.)
 
 I have separate notes from the group’s feedback:
-The background of the text box is too bold, consider using a different color
-The tree maps should come before the bar charts order them: 10, 25, all.  Flip visualizations 
-Use the dashboard actions to highlight information in the visualizations
-Make tree map segments the same size (⅓ of the width for each)
-Make the tree maps the same color
-The keywords bar chart is not visually aligned with the rest of the aesthetic and is not immediately intuitive that one has to scroll down to see more keywords.  Add that to the title.  
-Improve the tool tip for the tree maps
-Make both bar charts scroll in the same direction (up and down)
-Sort the bar charts biggest to smallest, but there was also an observation that the alphabetical default might have been left for a reason (I silently nodded emphatically in agreement with the second observation)
-Shows the chaos
-Use dashboard action to break out zine creator and keywords? (Not sure I fully understood what this meant and when I asked for clarification the next day, commentator couldn’t remember, so it was ignored).  
-Add a wildcard search within visualization. 
-Change label colors 
+
+- The background of the text box is too bold, consider using a different color
+- The tree maps should come before the bar charts order them: 10, 25, all.  Flip visualizations 
+- Use the dashboard actions to highlight information in the visualizations
+- Make tree map segments the same size (⅓ of the width for each)
+- Make the tree maps the same color
+- The keywords bar chart is not visually aligned with the rest of the aesthetic and is not immediately intuitive that one has to scroll down to see more keywords.  Add that to the title.  
+- Improve the tool tip for the tree maps
+- Make both bar charts scroll in the same direction (up and down)
+- Sort the bar charts biggest to smallest, but there was also an observation that the alphabetical default might have been left for a reason (I silently nodded emphatically in agreement with the second observation)
+- Shows the chaos
+- Use dashboard action to break out zine creator and keywords? (Not sure I fully understood what this meant and when I asked for clarification the next day, commentator couldn’t remember, so it was ignored).  
+- Add a wildcard search within visualization. 
+- Change label colors 
 
 This project was the only visualization we were required to update after receiving feedback and I found it to be really helpful to have many more sets of eyes critique the project.  The next day in class was a technical workshop where I drafted the following questions/goals for updating the visualization:
-Update the data so that Zine Creator chart is not misrepresenting the number of zines.  (I worked with Erin on describing how I had pivoted that data and she worked with me on cleaning up the visualization so that it was more accurately representing the correct number of zines created by any one person/group.)
-Format the legend for keyword bar chart. (I was frustratingly trying to change the color coding label and Erin directed me to inserting a key which I was then able to change so that it was a drop down/searchable key for keywords.  I applied the same key to the zine creator visualization and added them to the dashboard). 
-I wanted to add total numbers to the bar chart in both visualizations, but due to the way I pivoted the data, and created the visualizations, it did not work properly, so I “killed that darling.”
-How do I improve tooltip for tree?  (Change the tooltip to a sentence which was easy enough to accomplish.)
-Dashboard actions (worked with Erin to add highlights for tree maps and bar charts).  
-Add a visible URL to the bottom of the dashboard?  (Killed this darling)
-Changed the color of the keywords bar chart.  (I made all five visualizations the same color red and also changed the introductory text background to grey.  MUCH better looking!)
+
+- Update the data so that Zine Creator chart is not misrepresenting the number of zines.  (I worked with Erin on describing how I had pivoted that data and she worked with me on cleaning up the visualization so that it was more accurately representing the correct number of zines created by any one person/group.)
+- Format the legend for keyword bar chart. (I was frustratingly trying to change the color coding label and Erin directed me to inserting a key which I was then able to change so that it was a drop down/searchable key for keywords.  I applied the same key to the zine creator visualization and added them to the dashboard). 
+- I wanted to add total numbers to the bar chart in both visualizations, but due to the way I pivoted the data, and created the visualizations, it did not work properly, so I “killed that darling.”
+- How do I improve tooltip for tree?  (Change the tooltip to a sentence which was easy enough to accomplish.)
+- Dashboard actions (worked with Erin to add highlights for tree maps and bar charts).  
+- Add a visible URL to the bottom of the dashboard?  (Killed this darling)
+- Changed the color of the keywords bar chart.  (I made all five visualizations the same color red and also changed the introductory text background to grey.  MUCH better looking!)
 
 After the workshop session, I made a few more notes of things I wanted to finish working on: fix tooltips, bold the labels on dashboard view, fix the sizing and layout of the visualizations and its embedding size.  These were all accomplished by the day of final presentations (except I realized one of the tooltips did not get updated).  
 
@@ -96,6 +99,6 @@ I know part of this reflection is to incorporate the readings, but I unfortunate
 
 I was also quite inspired by the [David McCandless TED Talk](https://www.ted.com/talks/david_mccandless_the_beauty_of_data_visualization) and appreciated how approachable he made working with big data sets and shared his philosophy for data design.  I visited his website and there was a three minute video on how he and his team work together, and it made me appreciate how this course was set up so that we individually worked and then came together to workshop and collaborate.  
 
-One other skill I am walking away with this semester is a method for storyboarding.  I don’t have an opportunity in much of the work that I do to storyboard things, but I really enjoyed the process and discussion afterwards on how to best tell a story with visualizations.  Much like the sketching, storyboarding offers another approach to thinking about the work I’m doing.  
+One other skill I am walking away with this semester, in addition to Tableau and Github, is a method for storyboarding.  I don’t have an opportunity in much of the work that I do to storyboard things, but I really enjoyed the process and discussion afterwards on how to best tell a story with visualizations.  Much like the sketching, storyboarding offers another approach to thinking about the work I’m doing.  
 
 Finally, I want to say how appreciative I am for the whole set up of this course.  There was plenty of critical theory incorporated and immediate practical tool application.  This is very much what I was hoping most of my courses at the Graduate Center would allow for.  I will make this suggestion to Matt Gold that equal parts theory and practical skill building are employed in the classroom.  Thank you both for a wonderful and intense semester.  
