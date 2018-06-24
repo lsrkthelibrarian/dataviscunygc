@@ -1,5 +1,3 @@
-#White Paper
-
 First of all, I want to say how accomplished I feel after the intense summer course in [Data Visualization](https://www.gc.cuny.edu/Page-Elements/Academics-Research-Centers-Initiatives/Masters-Programs/Digital-Humanities/Summer-Courses).  In four weeks, I and my fellow classmates were able to become proficient in Tableau and GitHub.  I was first introduced to Tableau and GitHub about two years ago during my first semester at the CUNY Graduate Center where I was enrolled in the [Introduction to Digital Humanities](https://www.gc.cuny.edu/Page-Elements/Academics-Research-Centers-Initiatives/Masters-Programs/Liberal-Studies/Program-tracks/Digital-Humanities) course required of all first semester students.  
 
 The introduction included a one hour workshop on Tableau, which lasted long enough for me to observe that it was a powerful tool I should one day work with, but not long enough to really even get a full tour of the site.  Nevertheless, I added it to my list of “tools to master.” My professor, Lisa Rhody, used GitHub for sharing information such as the course syllabus, and encouraged the group I was working with to use it in our project’s development, but again, it was only a cursory introduction and there was no guidance as to how or why it should be used.  Mostly, I had enrolled in the MALS DH program to learn new tools that I could employ in my work as a librarian and the first semester provided a smattering of introductions to various DH software, in addition to plenty of theory!  I did not take to the theory so quickly at first and was quite restless to get down and dirty with learning new software, but I’ve come to realize, in my two years since commencing the graduate degree, that without the theory, my use of the tools would have very little context or impact.  
@@ -8,7 +6,7 @@ While working full time, and attending classes part-time, I had not had the oppo
 
 As with the first two assignments for the course, I was tasked with making a proposal outlining my research question, audience, the data I would use, and a sketch of the visualization I planned to create.  It was due by Friday, 6pm and then I had two days to complete the assignment.  I wrote the following: 
 
-###**Research question:** 
+**Research question:** 
 Jenna Freedman and I have been conducting ongoing work at the GC to develop a Zine Union Catalog that will allow scholars, researchers, zinesters, and anyone else interested in locating zine collections through a single search interface.  It is called [ZineCat](http://browse.zinecat.org/index.php). 
 First, a zine is a self published, small circulation, original work often featuring artistic, counter cultural, political, or highly personal content.  Second, if you’re not familiar with a union catalog, it is a catalog that allows one to search across many collections.  Libraries across the world have been collecting zines and making them locally findable (i.e. through the institution’s own catalog), but they are rarely made findable via larger union catalogs, a la Worldcat, and often have different means for describing the zines (aka non-standardized metadata).  
 
@@ -16,30 +14,31 @@ For our ITP Core II course this past spring, we wrote: “Because zines exist in
 
 Since there is a discrepancy in describing zines, I would like to analyze two fields of the zine collections we have in ZineCat: creator (aka author) and keywords (aka subject headings).  When we launched ZineCat in spring, 2017, we did not include keywords as they presented  a challenge for our system, but they are a very essential part of how users will search for, and find, the zines in the union catalog.  At this moment, my research question is: How can visualizations assist me in discovering the inconsistencies and impediments of describing the zine collections in The Zine Union Catalog (ZUC)?  With new discoveries through visualizations, how can the metadata for organizing zines be improved (and/or standardized) to make finding zines through ZUC easier?
 
-###**Audience:** 
+**Audience:** 
 The immediate audience for this project is me and Jenna Freedman, along with any other members of the zine union catalog community.  However, this project has a larger audience in the wider zine community and will reach any individual or group that ends up using the Zine Union Catalog (including students, scholars, researchers, librarians, zinesters, catalogers, etc.).
 The data: I will use a sampling of data from the three institutions that are currently represented in the Zine Union Catalog: Barnard Zine Library, Denver Zine Library, and the Queer Zine Archive Project (QZAP).  Stored in the [xZINECOREx Github repository](https://github.com/zinecat/xZINECOREx/tree/master/Test_records) are samplings of records the three collections.  I’ve identified QZAP’s data set to be the “easiest” to use as it will require the least amount of cleaning (so it’s possible I will just use this set), but ideally, I would like to have all three collections that are currently visible in ZUC to be represented in my visualizations.  In the ZUC, there are about 20 items from each collection, so I may pull out the information on those items specifically for the visualization or I may just use QZAP’s data.  
 
-###**The sketch:**  I’m not quite sure at all how I want to sketch this out.  I feel like three weeks in I should know about what type of visualization I want to make, but I don’t think I’ll really know until I start playing with the data.  I hope that’s okay!  Nonetheless, I am including a sketch based on preliminary thoughts I have about the data I’ll be analyzing and the questions I have, but it is for sure going to change!
+**The sketch:**  
+I’m not quite sure at all how I want to sketch this out.  I feel like three weeks in I should know about what type of visualization I want to make, but I don’t think I’ll really know until I start playing with the data.  I hope that’s okay!  Nonetheless, I am including a sketch based on preliminary thoughts I have about the data I’ll be analyzing and the questions I have, but it is for sure going to change!
 
-###**The Process**
+**The Process**
 I didn’t begin to work with my data until Saturday afternoon where I first assessed my data options.  As I stated in my proposal, ideally, I wanted to incorporate data from the three collections findable in the Zine Union Catalog: Barnard Zine Archives, Denver Zine Library, and QZAP.  I started out with QZAP and created several visualizations, but then I imported all three into Tableau, but really couldn’t work out a way to join them successfully.  I didn’t want to spend too much time massaging this data, so I quickly decided to only use an Excel spreadsheet from GitHub that contained the Queer Zine Archive Project’s (QZAP) collection information.  Some early notes I have are: 
 
-..* Attempting to combine two sheets or more proves difficult
-Going to start with QZAP data first.
-QZAP: what fields to I want?  
-Zine Creator
-Keywords
-Dropped all keyword dimensions on Tableau label and # of records on size
-Cleaning data → restructure the data?
+- Attempting to combine two sheets or more proves difficult
+- Going to start with QZAP data first.
+- QZAP: what fields to I want?  
+- Zine Creator
+- Keywords
+- Dropped all keyword dimensions on Tableau label and # of records on size
+- Cleaning data → restructure the data?
 
 At this point, with Jenna Freedman’s (colleague and classmate) advice, I selected all keyword dimensions that were stored in many many columns of the Excel file and pivoted the data so that it became long and skinny data.  With this “new” data I started to play around in Tableau with different chart types.  I created: 
 
-Bar charts
-Tree maps
-Clusters
-Pie charts
-Word clouds
+- Bar charts
+- Tree maps
+- Clusters
+- Pie charts
+- Word clouds
 
 With advice from the instructors I focused the early part of my exploration on really looking at what information the bar chart could provide.  With my recently acquired Tableau skills, it was easy to get carried away and want to make really fancy charts and visualizations, but they suggested I simply start with a bar chart.  
 
