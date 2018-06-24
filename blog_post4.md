@@ -108,3 +108,5 @@ I was also quite inspired by the [David McCandless TED Talk](https://www.ted.com
 One other skill I am walking away with this semester, in addition to Tableau and Github, is a method for storyboarding.  I don’t have an opportunity in much of the work that I do to storyboard things, but I really enjoyed the process and discussion afterwards on how to best tell a story with visualizations.  Much like the sketching, storyboarding offers another approach to thinking about the work I’m doing.  
 
 Finally, I want to say how appreciative I am for the whole set up of this course.  There was plenty of critical theory incorporated and immediate practical tool application.  This is very much what I was hoping most of my courses at the Graduate Center would allow for.  I will make this suggestion to Matt Gold that equal parts theory and practical skill building are employed in the classroom.  Thank you both for a wonderful and intense semester.  
+
+< [Return to Home](./index.md)
