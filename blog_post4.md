@@ -90,8 +90,14 @@ This project was the only visualization we were required to update after receivi
 
 After the workshop session, I made a few more notes of things I wanted to finish working on: fix tooltips, bold the labels on dashboard view, fix the sizing and layout of the visualizations and its embedding size.  These were all accomplished by the day of final presentations (except I realized one of the tooltips did not get updated).  
 
-My final product can be seen below:
-[insert final visualization here]
+**My final product can be seen below:**
+
+{% include plot5.html %}
+
+
+
+In case the visualization does not appear above, please click this [link](https://public.tableau.com/views/FinalProjectAttempt3/ZineCatFinal?:embed=y&:display_count=yes&publish=yes) to visit my Tableau page.  
+
 
 I know part of this reflection is to incorporate the readings, but I unfortunately did not have much time in this intensive course to reflect deeply and do a deep reading of the selections.  I am excited to revisit them upon completions of this paper when I do have a bit more free time.  Nonetheless, some of the readings I did appreciate really dealt with how to tell a good story and how to sketch visualizations out.  Dear Data was very influential in helping me take a step back to realize even though Tableau is an amazing tool that creates wonderful visualizations, there is still opportunity to incorporate drawing and drafting into the planning and preparation of visualizations.  During the course of this semester, I lead a workshop with librarian colleagues on lesson planning design and I was inspired by the sketching we had been doing in class and brought markers, paper, post its, and other manipulative so that the group could draw things out (if they chose to).  I think that this process of drawing things out will influence other work that I do going forward, not just the creation of visualizations (although I will employ it there, too).  
 
